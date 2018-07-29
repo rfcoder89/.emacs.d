@@ -1,0 +1,21 @@
+{
+  "Google": "https://www.google.com",
+  "Facebook": "https://www.facebook.com",
+  "GitHub": "https://www.github.com",
+  "GitHub [rfcoder89]": "https://github.com/rfcoder89",
+  "Stack Overflow": "https://stackoverflow.com/",
+  "Wolfram Math World": "http://mathworld.wolfram.com/",
+  "AWS": "https://eu-west-1.signin.aws.amazon.com/",
+  "Atlassian Confluence": "https://confluence.aveva.com/dashboard.action#all-updates",
+  "Atlassian Crucible": "https://crucible.aveva.com",
+  "Atlassian Jira": "https://jira.aveva.com",
+  "Atlassian Stash [LFM]": "https://stash.aveva.com/projects/LFM",
+  "Atlassian Stash [Cloud]": "https://stash.aveva.com/projects/CLOUD",
+  "Timesheets": "https://aveva.attask-ondemand.com/timesheets/current",
+  "Expenses": "https://www.concursolutions.com/?entity=p0001663uf3c",
+  "PeopleZone": "https://fs-3--fhcm2.eu7.visual.force.com/apex/CollaborationPortalIndex?id=a1H20000004dqJbEAI#/teammember/a1H20000004dqJbEAI/services/a2s2000000092eIAAQ",
+  "Connect [CapDev]": "https://capdev-connect.aveva.com/#/account/home",
+  "NetView [Cloud Richard]": "https://netview.lfmdev.aveva.com/richard/netview.html",
+  "GoCD": "https://ukmansbuild:8154/go/pipelines",
+  "Office 365": "https://www.office.com/?auth=2&home=1"
+}
