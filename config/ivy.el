@@ -12,6 +12,12 @@
 (use-package counsel
   :ensure t
   :after ivy
+  :bind
+  (("M-x" . counsel-M-x)
+   ("C-x b" . ivy-switch-buffer)
+   ("C-x C-b" . counsel-bookmark)
+   ("C-x C-f" . counsel-find-file))
+  
   :config
   (setcdr (assoc 'counsel-M-x ivy-initial-inputs-alist) ""))
 
