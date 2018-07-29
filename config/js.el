@@ -11,7 +11,7 @@
 
 (use-package js2-refactor
   :ensure t
-  :after (rjsx-mode)
+  :after rjsx-mode
   :config
   (bind-keys
    :map rjsx-mode-map
