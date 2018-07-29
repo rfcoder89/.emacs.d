@@ -1,9 +1,11 @@
+;; daemon
+(server-start)
+
 ;; personal info
 (setq user-full-name "Richard Flood")
 (setq user-mail-address "rfcoder89@gmail.com")
 
-(server-start)
-(toggle-frame-fullscreen)
+
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)

@@ -29,6 +29,8 @@
 (show-paren-mode t)
 (electric-indent-mode)
 (global-linum-mode t)
+(toggle-truncate-lines)
+(toggle-frame-fullscreen)
 
 (use-package dakrone-theme
   :ensure t
@@ -36,4 +38,4 @@
   (load-theme 'dakrone t))
 
 (set-face-background 'cursor "DeepSkyBlue")
-(toggle-truncate-lines)
+
