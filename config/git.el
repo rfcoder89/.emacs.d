@@ -2,6 +2,7 @@
   :ensure t
   :bind
   ("C-0" . magit-status)
+  ("C-M-0" . magit-list-repositories)
   
   :config
   (setq magit-display-buffer-function #'magit-display-buffer-fullframe-status-v1)  
