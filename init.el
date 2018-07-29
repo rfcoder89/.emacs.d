@@ -41,3 +41,8 @@
         "js")))
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/lisp/%s.el" val))) lisp)
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/config/%s.el" val))) config))
+
+(eval-after-load "magit"
+  '(progn
+     (dired "~")
+     (magit-list-repositories)))
