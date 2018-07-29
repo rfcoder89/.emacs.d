@@ -1,13 +1,9 @@
 (use-package projectile
   :ensure t
-  :after magit
   :config
   (setq projectile-indexing-method 'native)
   (setq projectile-enable-caching t)
   (projectile-global-mode)
-
-  (mapc #'projectile-add-known-project
-        (mapcar #'file-name-as-directory (magit-list-repositories)))
   
   (bind-keys
    :prefix-map rlf/p/projectile
