@@ -15,3 +15,7 @@
   (local-set-key (kbd "C-=") 'popwin:one-window))
 
 (add-hook 'eshell-mode-hook 'rlf-eshell-keys)
+
+(global-set-key (kbd "M-3") 'eshell)
+(global-set-key (kbd "C-3") 'rlf-eshell-here)
+
