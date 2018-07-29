@@ -1,3 +1,4 @@
+
 (use-package projectile
   :ensure t
   :config
@@ -8,6 +9,7 @@
   (bind-keys
    :prefix-map rlf/p/projectile
    :prefix "C-x C-p"
+   ("C-r" . compile)
    ("C-p" . counsel-projectile-switch-project)
    ("C-f" . counsel-projectile)
    ("C-d" . counsel-dired-jump)   
