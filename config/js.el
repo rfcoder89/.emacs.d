@@ -47,3 +47,8 @@
    ("sl" . js2r-forward-slurp)
    ("ba" . js2r-forward-barf)
    ("k"  . js2r-kill)))
+
+(use-package npm-mode
+  :load-path (lambda () (path-join rlf-modules "npm-mode"))
+  :config
+  (npm-global-mode))

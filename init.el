@@ -5,7 +5,8 @@
 (setq user-full-name "Richard Flood")
 (setq user-mail-address "rfcoder89@gmail.com")
 
-
+(setq rlf-modules "~/.emacs.d/lisp/")
+(setq rlf-dev-modules "~/development/github/")
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)

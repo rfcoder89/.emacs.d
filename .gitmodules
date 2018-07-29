@@ -1,0 +1,3 @@
+[submodule "npm-mode"]
+	path = lisp/npm-mode
+	url = https://github.com/rfcoder89/npm-mode.git
