@@ -1,0 +1,10 @@
+(global-set-key (kbd "C-x C-o") 'other-window)
+(global-set-key (kbd "C-x o") '(lambda () (interactive (other-window -1))))
+(global-set-key (kbd "C-x C-0") '(lambda () (interactive) (delete-window)))
+(global-set-key (kbd "C-x C-2") '(lambda () (interactive) (split-window-below) (other-window 1)))
+(global-set-key (kbd "C-x C-3") '(lambda () (interactive) (split-window-right) (other-window 1)))
+
+(global-set-key (kbd "<up>") '(lambda () (interactive) (windmove-up)))
+(global-set-key (kbd "<down>") '(lambda () (interactive) (windmove-down)))
+(global-set-key (kbd "<left>") '(lambda () (interactive) (windmove-left)))
+(global-set-key (kbd "<right>") '(lambda () (interactive) (windmove-right)))
