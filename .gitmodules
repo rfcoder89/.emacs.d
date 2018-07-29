@@ -1,3 +1,6 @@
 [submodule "npm-mode"]
 	path = lisp/npm-mode
 	url = https://github.com/rfcoder89/npm-mode.git
+[submodule "webmarks"]
+	path = lisp/webmarks
+	url = https://github.com/rfcoder89/webmarks.git
