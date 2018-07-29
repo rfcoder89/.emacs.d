@@ -33,6 +33,7 @@
         "dired"
         "compilation"
         "org"
-        "popwin")))
+        "popwin"
+        "company")))
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/lisp/%s.el" val))) lisp)
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/config/%s.el" val))) config))
