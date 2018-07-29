@@ -24,13 +24,13 @@
 
 (eval-when-compile (require 'use-package))
 
-(let ((lisp '("mouse"))
+(let ((lisp '
+       ("mouse"
+        "path"))
+      
       (config '
        ("visual"
         "dired"
         "compilation")))
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/lisp/%s.el" val))) lisp)
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/config/%s.el" val))) config))
-		   
-			
-			
