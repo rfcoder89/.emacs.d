@@ -4,6 +4,7 @@
   ("C-0" . magit-status)
   
   :config
+  (setq magit-display-buffer-function #'magit-display-buffer-fullframe-status-v1)  
   (setq magit-repository-directories
         '(("~/development" . 2)
           ("~/.emacs.d" . 1))))
