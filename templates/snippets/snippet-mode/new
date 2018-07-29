@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Snippet template
+# key: newtingyo
+# --
+# -*- mode: snippet -*-
+# name: ${1:Description}
+# --
+$0

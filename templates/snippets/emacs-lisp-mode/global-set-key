@@ -1,0 +1,5 @@
+# -*- snippet -*-
+# name: Global keybinding (lambda)
+# --
+(global-set-key (kbd "$1") '(lambda () (interactive) $2))
+$0

@@ -41,7 +41,8 @@
         "git"
         "ivy"
         "js"
-        "projectile")))
+        "projectile"
+        "templates")))
   
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/lisp/%s.el" val))) lisp)
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/config/%s.el" val))) config))
