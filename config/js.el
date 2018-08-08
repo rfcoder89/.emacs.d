@@ -52,3 +52,15 @@
   :load-path (lambda () (path-join rlf-modules "npm-mode"))
   :config
   (npm-global-mode))
+
+(use-package mocha
+  :ensure t
+  :after rjsx-mode
+  :config
+  (bind-keys
+   :map rjsx-mode-map
+   :prefix "C-c t"
+   :prefix-map rlf/p/mocha
+   ("t" . mocha-test-project)
+   ("f" . mocha-test-file)
+   ("p" . mocha-test-at-point)))
