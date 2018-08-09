@@ -63,7 +63,15 @@
    :prefix-map rlf/p/mocha
    ("t" . mocha-test-project)
    ("f" . mocha-test-file)
-   ("p" . mocha-test-at-point)))
+   ("p" . mocha-test-at-point)
+   ("<SPC>" . (lambda () (interactive) (popwin:popup-buffer "*mocha tests*")))
+   ("C-<SPC>" . (lambda () (interactive) (popwin:popup-buffer "*compilation*")))))
+
+(use-package coverlay
+  :ensure t
+  :config
+  (global-coverlay-mode))
+
 (define-derived-mode rjsx-mocha-mode rjsx-mode "JSMocha"
   "Major mode based on rjsx-mode for editing mocha test files."
   (setq font-lock-defaults '(mymath-highlights)))
