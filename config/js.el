@@ -64,3 +64,8 @@
    ("t" . mocha-test-project)
    ("f" . mocha-test-file)
    ("p" . mocha-test-at-point)))
+(define-derived-mode rjsx-mocha-mode rjsx-mode "JSMocha"
+  "Major mode based on rjsx-mode for editing mocha test files."
+  (setq font-lock-defaults '(mymath-highlights)))
+
+ (add-to-list 'auto-mode-alist '("\\.mocha.js\\'" . rjsx-mocha-mode))
