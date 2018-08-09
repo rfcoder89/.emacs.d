@@ -4,7 +4,8 @@ recentf
 auto-save-list
 server
 eshell
-/projectile*
+projectile*
 smex-items
 ido.last
 bookmarks
+webmarks.json
