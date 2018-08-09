@@ -17,5 +17,6 @@
   "Connect [CapDev]": "https://capdev-connect.aveva.com/#/account/home",
   "NetView [Cloud Richard]": "https://netview.lfmdev.aveva.com/richard/netview.html",
   "GoCD": "https://ukmansbuild:8154/go/pipelines",
-  "Office 365": "https://www.office.com/?auth=2&home=1"
+  "Office 365": "https://www.office.com/?auth=2&home=1",
+  "Identity Server [CapDev]": "https://identity.capdev-connect.aveva.com/admin#/"
 }
