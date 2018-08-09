@@ -35,6 +35,7 @@
        ("visual"
         "dired"
         "compilation"
+        "cryptography"
         "org"
         "popwin"
         "company"
