@@ -21,6 +21,9 @@
   
   (:map dired-mode-map
 			  ("f" . dired-mark-files-regexp)
+			  ("e" . (lambda () (interactive) (dired "~/.emacs.d")))
+			  ("h" . (lambda () (interactive) (dired "~")))
+        ("r" . (lambda () (interactive) (dired "~/development")))
 			  ("M-o" . dired-omit-mode)
 			  ("C-M-n" . dired-find-file)
 			  ("C-M-p" . dired-up-directory)
