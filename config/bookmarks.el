@@ -12,4 +12,5 @@
   (webmarks-reload)
   
   :bind
-  ("C-x C-n" . webmarks-list))
+  ("C-x C-n" . webmarks-list)
+  ("C-x n" . webmarks-reload))
