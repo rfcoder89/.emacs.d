@@ -6,6 +6,4 @@ server
 eshell
 projectile*
 smex-items
-ido.last
-bookmarks
-webmarks.json
+url

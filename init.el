@@ -33,8 +33,10 @@
       
       (config '
        ("visual"
+        "ediff"
         "dired"
         "compilation"
+        "cryptography"
         "org"
         "popwin"
         "company"
