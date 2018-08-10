@@ -1,4 +1,3 @@
-
 (use-package projectile
   :ensure t
   :config
