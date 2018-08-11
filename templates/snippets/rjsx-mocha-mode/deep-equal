@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(x).to.deep.equal(y);
+# --
+expect(${1:value}).to.deep.equal(${2:result});
+$0

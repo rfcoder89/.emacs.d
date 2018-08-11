@@ -1,4 +1,5 @@
-# name: expect - equal
+# -*- snippet-mode -*-
+# name: expect(x).to.equal(y);
 # --
 expect(${1:expression}).to.equal(${2:result});
 $0

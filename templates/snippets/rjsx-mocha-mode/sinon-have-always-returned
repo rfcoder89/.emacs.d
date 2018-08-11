@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(x).;
+# --
+expect(${1:spy});
+$0

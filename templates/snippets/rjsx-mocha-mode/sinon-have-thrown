@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(() => {}).to.have.thrown()
+# -=
+expect(${1:spy})to.have.thrown();
+$0

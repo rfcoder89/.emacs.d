@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(() => ()).to.throw();
+# --
+expect(() => ${1:expression}).to.throw(${2:error});
+$0

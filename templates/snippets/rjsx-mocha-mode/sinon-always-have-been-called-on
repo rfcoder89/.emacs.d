@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(x).to.always.have.been.calledOn(context);
+# --
+expect(${1:spy}).to.always.have.been.calledOn(${2:context});
+$0

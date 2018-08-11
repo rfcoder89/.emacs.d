@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(x).to.be.true
+# --
+expect(${1:expression}).to.be.true;
+$0

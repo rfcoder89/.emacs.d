@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(x).to.have.always.been.calledOnceWith(arg);
+# --
+expect(${1:spy}).to.have.always.been.calledOnceWith(${1:args});
+$0
