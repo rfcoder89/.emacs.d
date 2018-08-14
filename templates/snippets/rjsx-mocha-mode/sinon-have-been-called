@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(x).to.have.been.called;
+# --
+expect(${1:spy}).to.have.been.called;
+$0

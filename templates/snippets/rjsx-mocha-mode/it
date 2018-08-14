@@ -1,4 +1,5 @@
-# name: mocha - it
+# -*- snippet-mode -*-
+# name: it(x, () => ());
 # --
 it('${1:description}', (${2:done}) => {
   $0

@@ -1,6 +1,6 @@
-# name: mocha - new file [expect sinon]
+# -*- snippet-mode -*-
+# name: new file - sinon
 # --
-'use strict';
 const chai = require('chai');
 const sinon = require('sinon');
 const sinonChai = require('sinon-chai');

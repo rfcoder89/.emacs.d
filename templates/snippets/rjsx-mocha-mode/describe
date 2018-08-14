@@ -1,0 +1,6 @@
+# -*- snippet-mode -*-
+# name: describe(x, () => ());
+# --
+describe('${1:description}', () => {
+  $0
+});

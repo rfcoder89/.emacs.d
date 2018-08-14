@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(x).to.not.equal(y);
+# --
+expect(${1:expression}).to.not.equal(${1:result});
+$0

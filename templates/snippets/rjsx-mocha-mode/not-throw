@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(() => ()).to.not.throw();
+# --
+expect(() => ${1:expression}).to.not.throw();
+$0

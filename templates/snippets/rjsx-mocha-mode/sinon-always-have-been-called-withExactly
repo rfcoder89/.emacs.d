@@ -1,0 +1,5 @@
+# -*- snippet-mode -*-
+# name: expect(x).to.have.always.been.calledWithExactly(y);
+# --
+expect(${1:spy}).to.have.always.been.calledWithExactly(${2:...args});  
+$0
