@@ -32,6 +32,8 @@
 (toggle-truncate-lines)
 (toggle-frame-fullscreen)
 
+(global-set-key (kbd "<f8>") 'redraw-display)
+
 (use-package dakrone-theme
   :ensure t
   :config
