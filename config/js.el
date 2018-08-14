@@ -68,7 +68,7 @@
    ("C-<SPC>" . (lambda () (interactive) (popwin:popup-buffer "*compilation*")))))
 
 (use-package coverlay
-  :ensure t
+  :load-path (lambda () (path-join rlf-modules "coverlay"))
   :config
   (global-coverlay-mode))
 

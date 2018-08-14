@@ -7,3 +7,6 @@
 [submodule "createany"]
 	path = lisp/createany
 	url = https://github.com/rfcoder89/createany.git
+[submodule "coverlay"]
+	path = lisp/coverlay
+	url = https://github.com/rfcoder89/coverlay.el.git
