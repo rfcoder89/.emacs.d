@@ -34,6 +34,8 @@
 
 (global-set-key (kbd "<f8>") 'redraw-display)
 
+(display-time-mode)
+
 (use-package dakrone-theme
   :ensure t
   :config
