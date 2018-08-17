@@ -1,8 +1,10 @@
 (use-package smex
-  :ensure t)
+  :ensure t
+  :diminish 'ivy-mode)
 
 (use-package ivy
   :ensure t
+  :diminish
   :after smex
   :config
   (ivy-mode 1)

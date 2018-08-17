@@ -50,6 +50,7 @@
 
 (use-package npm-mode
   :load-path (lambda () (path-join rlf-modules "npm-mode"))
+  :diminish 'npm-mode
   :config
   (npm-global-mode))
 
@@ -69,6 +70,7 @@
 
 (use-package coverlay
   :load-path (lambda () (path-join rlf-modules "coverlay"))
+  :diminish 'coverlay-minor-mode    
   :config
   (global-coverlay-mode))
 
@@ -78,5 +80,4 @@
 (define-derived-mode rjsx-mocha-mode rjsx-mode "JSMocha"
   "Major mode based on rjsx-mode for editing mocha test files."
   (setq font-lock-defaults '(mymath-highlights)))
-
  (add-to-list 'auto-mode-alist '("\\.mocha.js\\'" . rjsx-mocha-mode))

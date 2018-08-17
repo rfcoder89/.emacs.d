@@ -27,6 +27,9 @@
 
 (eval-when-compile (require 'use-package))
 
+(use-package diminish
+  :ensure t)
+
 (let ((lisp '
        ("mouse"
         "path"))

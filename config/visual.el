@@ -41,3 +41,4 @@
 
 (set-face-background 'cursor "DeepSkyBlue")
 
+(diminish 'eldoc-mode)
