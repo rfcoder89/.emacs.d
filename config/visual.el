@@ -44,3 +44,4 @@
 (set-face-background 'cursor "DeepSkyBlue")
 
 (diminish 'eldoc-mode)
+(set-default-font "Input-10")
