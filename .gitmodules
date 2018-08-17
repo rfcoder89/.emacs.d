@@ -10,3 +10,6 @@
 [submodule "coverlay"]
 	path = lisp/coverlay
 	url = https://github.com/rfcoder89/coverlay.el.git
+[submodule "indium"]
+	path = lisp/indium
+	url = https://github.com/NicolasPetton/Indium.git

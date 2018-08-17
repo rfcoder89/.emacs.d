@@ -72,6 +72,9 @@
   :config
   (global-coverlay-mode))
 
+(use-package indium
+  :load-path (lambda () (path-join rlf-modules "indium")))
+
 (define-derived-mode rjsx-mocha-mode rjsx-mode "JSMocha"
   "Major mode based on rjsx-mode for editing mocha test files."
   (setq font-lock-defaults '(mymath-highlights)))
