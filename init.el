@@ -47,6 +47,7 @@
         "git"
         "ivy"
         "js"
+        "lua"
         "projectile"
         "templates"
         "bookmarks"
