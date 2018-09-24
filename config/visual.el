@@ -30,7 +30,9 @@
 (electric-indent-mode)
 (global-linum-mode t)
 (toggle-truncate-lines)
-(toggle-frame-fullscreen)
+
+(if (not (string= system-type "gnu/linux"))
+  (toggle-frame-fullscreen))
 
 (global-set-key (kbd "<f8>") 'redraw-display)
 
