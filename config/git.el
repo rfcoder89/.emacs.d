@@ -15,3 +15,9 @@
   :config
   (global-diff-hl-mode)
   (diff-hl-dired-mode))
+
+(use-package gitignore-mode
+  :ensure t
+  :config
+  (add-to-list 'auto-mode-alist '("\\.gitignore\\'" . gitignore-mode)))
+  
