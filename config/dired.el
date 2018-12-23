@@ -1,6 +1,15 @@
 (use-package createany
   :load-path (lambda () (path-join rlf-modules "createany")))
 
+(defun dired-create-file ()
+  (interactive)
+  (let ((filename (read-file-name "Create file: " default-directory)))
+    (if (file-exists-p filename)
+      (message "File already exists!")
+      (progn
+        (shell-command (concat "touch \"" filename "\""))
+        (message (concat "File created: " filename))))))
+
 (use-package dired
   :after createany
   :config
@@ -15,11 +24,12 @@
                 "\\|cmake_install.cmake"
                 "\\|CMakeCache.txt"
                 "\\|NTUSER*"))
-  
+
   :bind
   ("C-x C-d" . dired-jump)
-  
+
   (:map dired-mode-map
+        ("M-+" . dired-create-file)
 			  ("f" . dired-mark-files-regexp)
 			  ("e" . (lambda () (interactive) (dired "~/.emacs.d")))
 			  ("h" . (lambda () (interactive) (dired "~")))
