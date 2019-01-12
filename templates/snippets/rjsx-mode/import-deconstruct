@@ -1,0 +1,5 @@
+# -*- snippet -*-
+# name: import-deconstruct
+# --
+import { ${1:module} } from '${2:$1}';
+$0
