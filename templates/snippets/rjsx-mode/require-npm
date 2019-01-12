@@ -1,7 +1,0 @@
-# -*- snippet -*-
-# name: require - npm
-# --
-const ${1:`(completing-read "Hello" '("hello" "chef"))`} = require('${2:$1}');
-$0
-
-(with-local-key-map
