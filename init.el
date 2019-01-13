@@ -53,6 +53,7 @@
         "bookmarks"
         "navigation"
         "window"
+        "yaml"
         "general")))
 
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/lisp/%s.el" val))) lisp)
