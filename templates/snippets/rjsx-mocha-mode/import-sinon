@@ -1,0 +1,11 @@
+# -*- snippet-mode -*-
+# name: import sinon
+# --
+/* eslint-env node, mocha */
+import chai from 'chai';
+import sinon from 'sinon';
+import sinonChai from 'sinon-chai';
+const { expect } = chai;
+chai.use(sinonChai);
+
+$0

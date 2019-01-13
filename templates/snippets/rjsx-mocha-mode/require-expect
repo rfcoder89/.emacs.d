@@ -1,6 +1,5 @@
 # -*- snippet-mode -*-
-# name: new file - expect
+# name: require expect
 # --
 const { expect } = require('chai');
-
 $0

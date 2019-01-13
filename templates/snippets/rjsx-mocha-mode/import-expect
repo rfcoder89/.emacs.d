@@ -1,0 +1,6 @@
+# -*- snippet-mode -*-
+# name: import expect
+# --
+/* eslint-env node, mocha */
+import { expect } from 'chai';
+$0

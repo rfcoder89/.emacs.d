@@ -1,5 +1,5 @@
 # -*- snippet-mode -*-
-# name: new file - sinon
+# name: require sinon
 # --
 const chai = require('chai');
 const sinon = require('sinon');
