@@ -9,7 +9,7 @@
  '(mocha-reporter "scripts/mocha-emacs-reporter.js")
  '(package-selected-packages
    (quote
-    (lua-mode telephone-line eslint-fix hmac coverlay mocha typescript-mode ivy-yasnippet js2-refactor rjsx-mode json-mode counsel-tramp counsel-projectile counsel ivy smex diff-hl magit company popwin dakrone-theme use-package))))
+    (yaml-tomato yaml-mode indent-tools pug-mode lua-mode telephone-line eslint-fix hmac coverlay mocha typescript-mode ivy-yasnippet js2-refactor rjsx-mode json-mode counsel-tramp counsel-projectile counsel ivy smex diff-hl magit company popwin dakrone-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
