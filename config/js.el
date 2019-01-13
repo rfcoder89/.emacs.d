@@ -1,3 +1,6 @@
+(use-package pug-mode
+  :ensure t
+  :mode("\\.pug\\'" . pug-mode))
 
 (use-package json-mode
   :ensure t)
