@@ -61,4 +61,4 @@
 (diminish 'eldoc-mode)
 
 (set-face-background 'cursor "DeepSkyBlue")
-(set-default-font "Input-10")
+(set-default-font "Consolas-10")
