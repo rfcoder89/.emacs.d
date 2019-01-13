@@ -1,4 +1,5 @@
 (use-package org
+  :mode ("\\.org\\'" . org-mode)
   :config
   (setq org-log-done t)
   (setq org-agenda-files '("~/documents"))
