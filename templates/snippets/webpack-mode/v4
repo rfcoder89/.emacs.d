@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: # v4
+# --
+module.exports = {
+  ${1:$$(yas-choose-value '("" "entry: \\"src/index.js\\"" """ entry: {
+	app1: [\\"src/app1/index.js\\"],
+	app2: [\\"src/app2/index.js\\"]
+}
+"""))}
+  bruh: $2
+  myname: ${3:$$(yas-choose-value '("hello" "world"))}
+};$0

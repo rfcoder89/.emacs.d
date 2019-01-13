@@ -6,10 +6,7 @@
  '(coverlay:tested-line-background-color "")
  '(mocha-command
    "node_modules/mocha/bin/_mocha --require babel-core/register")
- '(mocha-reporter "scripts/mocha-emacs-reporter.js")
- '(package-selected-packages
-   (quote
-    (prodigy elmacro eslint-fix hmac coverlay mocha typescript-mode ivy-yasnippet js2-refactor rjsx-mode json-mode counsel-tramp counsel-projectile counsel ivy smex diff-hl magit company popwin dakrone-theme use-package))))
+ '(mocha-reporter "scripts/mocha-emacs-reporter.js"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

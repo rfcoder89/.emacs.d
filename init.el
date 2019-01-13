@@ -33,7 +33,7 @@
 (let ((lisp '
        ("mouse"
         "path"))
-      
+
       (config '
        ("visual"
         "ediff"
@@ -47,12 +47,16 @@
         "git"
         "ivy"
         "js"
+        "lua"
         "projectile"
         "templates"
         "bookmarks"
         "window"
-        "prodigy")))
-  
+        "prodigy"
+        "navigation"
+        "yaml"
+        "general")))
+
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/lisp/%s.el" val))) lisp)
   (mapcar (lambda (val) (load-file (format "~/.emacs.d/config/%s.el" val))) config))
 
